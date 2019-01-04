@@ -10,14 +10,14 @@ fn main() {
     println!("First element: {}", a1[0]);
     println!("Second element: {}", a1[1]);
 
-	// len() for array length
+    // len() for array length
     println!("Array size: {}", a2.len());
 
     // Create a slice from an array
     let s1 = &a2[3 .. 10];
-	println!("{:?}", s1);
+    println!("{:?}", s1);
 
-	// len() for slice length
+    // len() for slice length
     println!("Slice size: {}", s1.len());
 
     // Error:
