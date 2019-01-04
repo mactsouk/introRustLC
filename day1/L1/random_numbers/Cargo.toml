@@ -1,0 +1,8 @@
+[package]
+name = "random_numbers"
+version = "0.1.0"
+authors = ["mtsouk <mihalistsoukalos@gmail.com>"]
+
+[dependencies]
+rand = "0.4"
+
