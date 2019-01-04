@@ -4,11 +4,11 @@ fn accept(s: &str) {
 
 fn main() {
     // Define a str
-    let l_j: &str= "Fundamentals of Rust";
+    let s_1: &str= "Fundamentals of Rust";
     // Or
-    let magazine: &'static str = "Live Course";
+    let s_2: &'static str = "Live Course";
     // Use format! to create a String
-    let my_str = format!("This is {} {}!", l_j, magazine);
+    let my_str = format!("This is {} {}!", s_1, s_2);
     println!("my_str L:{} C:{}", my_str.len(), my_str.capacity());
 
     // String character by character
