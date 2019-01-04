@@ -33,5 +33,15 @@ fn main() {
             println!("i:{} j:{}", i, j);
         }
     }
-	
+
+	// Using into_iter() that converts the existing
+	// value into an iterator by consuming the value
+	// This means that the following will not work:
+	// let n2 = vec![0, 4, -10];
+    for i in 1..4 {
+		let n2 = vec![0, 4, -10];
+        for jj in n2.into_iter() {
+            println!("i:{} j:{}", i, jj);
+        }
+    }
 }
