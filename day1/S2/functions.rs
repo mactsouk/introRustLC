@@ -5,6 +5,7 @@ fn bigger(a: u32, b:i64) -> i64 {
 		result = b;
 	}
 	
+	// The following are the same:
 	// return result;
 	result
 }
