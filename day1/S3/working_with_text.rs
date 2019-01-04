@@ -3,11 +3,8 @@ fn accept(s: &str) {
 }
 
 fn main() {
-    // Define a str
     let s_1: &str= "Fundamentals of Rust";
-    // Or
     let s_2: &'static str = "Live Course";
-    // Use format! to create a String
     let my_str = format!("This is {} {}!", s_1, s_2);
     println!("my_str L:{} C:{}", my_str.len(), my_str.capacity());
 
