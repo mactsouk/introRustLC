@@ -10,12 +10,12 @@ struct Limits {
 }
 
 fn main() {
-	
+
 	let l = Limits {
 		name:"Grades".to_string(),
 		min: 0,
 		max: 20,
 	};
-	
+
 	println!("{:?}", l);
 }
