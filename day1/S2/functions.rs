@@ -1,4 +1,3 @@
-
 fn bigger(a: u32, b:i64) -> i64 {	
 	let mut result = a as i64;
 	if result < b {
@@ -16,4 +15,5 @@ fn main() {
 	
 	println!("a: {}", a);
 	println!("b: {}", b);
+	
 }
