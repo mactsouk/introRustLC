@@ -30,6 +30,7 @@ fn main() {
 	// let will_crash_if_not_there = &v[50];
 	// let will_not_crash_if_not_there = v.get(50);
 	
+	println!("v: {:?}", v);
 	for el in v {
 		println!("el: {}", el);
 	}
