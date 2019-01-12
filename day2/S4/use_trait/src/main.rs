@@ -10,7 +10,7 @@ pub struct PointInSpace {
 }
 
 impl PointInSpace {
- 	fn random() -> Self {
+	fn random() -> Self {
 		let mut get_random = rand::thread_rng();
 		PointInSpace {
 			x: get_random.gen(),
