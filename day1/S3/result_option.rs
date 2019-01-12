@@ -1,8 +1,6 @@
 
 fn main() {
-	
 	let mut input = "123";
-	
     let _i = match input.parse::<i32>() {
       Ok(_i) => {
           println!("i: {}", _i);
@@ -13,7 +11,6 @@ fn main() {
     };
 
 	input = "abc";
-	
     let _i = match input.parse::<i32>() {
       Ok(_i) => {
           println!("i: {}", _i);
@@ -22,6 +19,5 @@ fn main() {
           println!("{}: Not a valid integer!", input);
       }
     };
-
-	
 }
+
