@@ -1,0 +1,8 @@
+[package]
+name = "http_server"
+version = "0.1.0"
+authors = ["mtsouk <mihalistsoukalos@gmail.com>"]
+
+[dependencies]
+hyper = "0.9.6"
+rand = "0.4"
