@@ -7,6 +7,7 @@ fn my_match( num: i32) {
   		0     => println!("zero"),
   		1 | 2 | 3 | 4  => println!("one or two or three or four"),
   		5..=20 => println!("five to twenty"),
+		// See what happens if you comment the next line!
   		_     => println!("something BIG")
 	}
 }
