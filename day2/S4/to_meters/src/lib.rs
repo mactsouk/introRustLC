@@ -1,4 +1,4 @@
-// This is just a tuple
+// These three structures are just tuples
 #[derive(PartialEq,Debug)]
 pub struct METERS (f32);
 #[derive(PartialEq,Debug)]
