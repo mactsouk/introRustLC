@@ -1,4 +1,3 @@
-// This is just a tuple
 #[derive(PartialEq,Debug)]
 pub struct METERS (f32);
 #[derive(PartialEq,Debug)]
