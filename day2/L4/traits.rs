@@ -25,4 +25,5 @@ fn main() {
 	
 	let a3 = a1 + a2;
 	println!("a3: {:?}", a3);
+	println!("a3: {:#?}", a3);
 }
