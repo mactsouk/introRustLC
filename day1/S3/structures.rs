@@ -18,4 +18,6 @@ fn main() {
 	};
 
 	println!("{:?}", l);
+	// What will happen if you use the following?
+	// println!("{?}", l);
 }
