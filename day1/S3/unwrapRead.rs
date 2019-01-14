@@ -1,9 +1,9 @@
 use std::io;
+use std::io::prelude::*;
 
-fn main()
-{
-	// Read the price
-	println!("Give me the price");
-	let price = io::stdin().read_line().unwrap();
-	println!("The price is {}", price);
+fn main() {
+    let stdin = io::stdin();
+    for line in stdin.lock().lines() {
+        println!("{:?}", line);
+    }
 }
