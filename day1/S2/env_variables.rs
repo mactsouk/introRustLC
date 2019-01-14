@@ -9,7 +9,7 @@ fn main() {
     let my_env = "MIHALIS";
     env::set_var(my_env, "My Value");
     match env::var("MIHALIS") {
-        Ok(value) => println!("Current path: {}", value),
+        Ok(value) => println!("Current value of MIHALIS: {}", value),
         Err(e) => println!("MIHALIS NOT SET {})", e),
     };
 }
