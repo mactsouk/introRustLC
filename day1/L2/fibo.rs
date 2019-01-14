@@ -4,7 +4,7 @@
 // The numbers are given as command line arguments
 
 use std::env;
-use std::str;
+// use std::str;
 
 fn fibonacci(n: i64) -> i64 {
     if n == 0 {

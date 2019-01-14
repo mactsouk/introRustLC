@@ -12,7 +12,7 @@ fn main() {
     
     // Iterator
     // The .. operator is _Range_
-    // Ranges are iretable types because they
+    // Ranges are iterable types because they
     // implement the std::iter::IntoIterator _trait_.
     for xx in 0..10 {
         println!("xx: {}", xx);
@@ -41,7 +41,7 @@ fn main() {
     for i in 1..4 {
         let n2 = vec![0, 4, -10];
         for jj in n2.into_iter() {
-            println!("i:{} j:{}", i, jj);
+            println!("*** i:{} j:{}", i, jj);
         }
     }
 }
