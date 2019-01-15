@@ -1,5 +1,7 @@
 fn main() {
 	// Owning
+	// The variable my_vector __owns__ the memory.
+	// The variable is on the stack but the data is on the heap
 	let mut my_vector = vec![1, 2, 3, 4, 5];
 	my_vector[2] = 100;
 	
