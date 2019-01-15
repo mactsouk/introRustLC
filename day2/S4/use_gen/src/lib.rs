@@ -55,7 +55,5 @@ mod tests {
 		let m = MILES(1.0);
         let k = convert.to_meters(m);
 		assert_eq!(k, 1634.0);
-		// This will fail:
-		// assert_eq!(k, 1634.0);
     }
 }

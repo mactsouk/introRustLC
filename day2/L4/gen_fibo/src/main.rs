@@ -31,12 +31,11 @@ fn main() {
 	let v: Vec<i32> = (0..n).collect(); 
 
 	let total: i32 = v
-	    .into_par_iter()
-	    // .iter()
-	    .map(|x| fibonacci(x))
-	    // .map(|x| fibonacci(*x))
+	    // .into_par_iter()
+	    .iter()
+	    // .map(|x| fibonacci(x))
+	    .map(|x| fibonacci(*x))
 	    .sum();
 
 	println!("{:?}", total);
-
 }
