@@ -7,6 +7,7 @@ use std::net::UdpSocket;
 
 fn main() {
     let port = ::std::env::args().nth(1).unwrap();
+    // localhost
     let ip = "127.0.0.1";
     let my_bind = ip.to_string() + ":" + &port;
     let my_bind_final: &str = &my_bind;

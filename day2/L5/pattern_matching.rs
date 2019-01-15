@@ -1,4 +1,4 @@
-fn my_match( num: i32) {
+fn my_match(num: i32) {
 	match num {
 		// This will not work:
 		//	< 0  => println!("Less than zero"),
@@ -18,4 +18,5 @@ fn main() {
 	my_match(4);
 	my_match(14);
 	my_match(22);
+	my_match(20);
 }
