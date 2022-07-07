@@ -4,5 +4,5 @@ version = "0.1.0"
 authors = ["mtsouk <mihalistsoukalos@gmail.com>"]
 
 [dependencies]
-hyper = "0.9.6"
+hyper = "0.14.12"
 rand = "0.4"
